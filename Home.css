@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+    
+}
+section{
+    background-image: url(Image/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+}
+section .overlay{
+    background-color: rgba(0, 0, 0, 0.514);
+    border-bottom: solid 8px rgb(39, 39, 39);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding-top: 30px;
+}
+header button{
+    width: 120px;
+    height: 45px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16xpx;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: rgb(179, 0, 0);
+}
+.content{
+    text-align: center;
+    margin-top: 170px;
+}
+.main-content h3{
+    color: white;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.main-content h4{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.main-content p{
+    color: white;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.continue{
+    padding-bottom: 180px;
+}
+.continue input{
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(54, 24, 226, 0.164);
+    border: 1px solid white;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.continue button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+.continue button:hover{
+    background-color: rgb(179, 0, 0);
+}
+
+
+.setion-2{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 8px rgb(39, 39, 39);
+}
+
+.setion-2 div h3{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.setion-2 div p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.setion-3{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 8px rgb(39, 39, 39);
+}
+.setion-3 div h3{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.setion-3 div p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.setion-4{
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 8px rgb(39, 39, 39);
+}
+.setion-4 div h3{
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.setion-4 div p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.faq{
+    padding: 50px 0;
+    text-align: center;
+    margin: 0px 150px;
+}
+.faq h3{
+    font-size: 47px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.faq-1{
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+    font-size: 30px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+.faq-1:hover{
+    background-color: rgb(63, 63, 63);
+}
+.confirm-mail{
+    text-align: center;
+    padding: 20px 0;
+}
+.confirm-mail p{
+    color: white;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
