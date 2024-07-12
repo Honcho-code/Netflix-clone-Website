@@ -8,6 +8,9 @@ body{
     background-color: #000;
     
 }
+.overlay{
+    width: 100%;
+}
 section{
     background-image: url(NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-position: center;
@@ -23,6 +26,9 @@ header{
     justify-content: space-between;
     margin: 0px 150px;
     padding-top: 30px;
+}
+header img{
+    width: 180px;
 }
 header button{
     width: 120px;
@@ -42,7 +48,9 @@ header button:hover{
 }
 .content{
     text-align: center;
+
     margin-top: 170px;
+
 }
 .main-content h3{
     color: white;
@@ -196,4 +204,742 @@ header button:hover{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 300;
     padding-bottom: 25px;
+}
+@media (max-width: 1200px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 70px;
+        padding-top: 30px;
+    }
+    header img{
+        width: 140px;
+    }
+    header button{
+        width: 110px;
+        height: 40px;
+        outline: 0;
+        border: 0;
+        border-radius: 5px;
+        font-size: 16xpx;
+        font-weight: 600;
+        color: white;
+        background-color: red;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 900px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 30px;
+        padding-top: 20px;
+    }
+    header img{
+        width: 100px;
+    }
+    header button{
+        width: 90px;
+        height: 35px;
+        outline: 0;
+        border: 0;
+        border-radius: 5px;
+        font-size: 16xpx;
+        font-weight: 600;
+        color: white;
+        background-color: red;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 1100px){
+    .content{
+        margin-top: 120px;
+    }
+    .main-content h3{
+        color: white;
+        font-size: 40px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        padding-bottom: 20px;
+    }
+    .main-content h4{
+        color: white;
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .main-content p{
+        color: white;
+        font-size: 16px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+
+}
+@media (max-width: 1100px){
+    .content{
+        margin-top: 100px;
+    }
+    .main-content h3{
+        color: white;
+        font-size: 37px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .main-content h4{
+        color: white;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .main-content p{
+        color: white;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+    .continue input{
+        width: 350px;
+        height: 45px;
+        padding: 20px;
+        color: white;
+        background-color: rgba(54, 24, 226, 0.164);
+        border: 1px solid white;
+        outline: 0;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .continue button{
+        height: 45px;
+        width: 130px;
+        font-size: 18px;
+        font-weight: 600;
+        outline: 0;
+        border: 0;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 540px){
+    .content{
+        margin: 0 10%;
+        margin-top: 60px;
+    }
+    .main-content h3{
+        color: white;
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .main-content h4{
+        color: white;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .main-content p{
+        color: white;
+        font-size: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+    .continue input{
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: 20px;
+        color: white;
+        background-color: rgba(54, 24, 226, 0.164);
+        border: 1px solid white;
+        outline: 0;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .continue button{
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        outline: 0;
+        border: 0;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 1400px){
+    .setion-2{
+        padding: 20px 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-3{
+        padding: 20px 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-4{
+        padding: 20px 130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-2 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-3 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-4 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-2 div p{
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-3 div p{
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-4 div p{
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-2 img{
+        width: 500px;
+    }
+    .setion-3 img{
+        width: 500px;
+    }
+    .setion-4 img{
+        width: 500px;
+    }
+}
+@media (max-width: 1400px){
+    .setion-2{
+        padding: 15px 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-3{
+        padding: 15px 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-4{
+        padding: 15px 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-2 div h3{
+        font-size: 38px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-3 div h3{
+        font-size: 38px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-4 div h3{
+        font-size: 38px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 18px;
+    }
+    .setion-2 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-3 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-4 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-2 img{
+        width: 450px;
+    }
+    .setion-3 img{
+        width: 450px;
+    }
+    .setion-4 img{
+        width: 450px;
+    }
+}
+@media (max-width: 1000px){
+    .setion-2{
+        padding: 10px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-3{
+        padding: 10px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-4{
+        padding: 10px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-2 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-3 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-4 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-2 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-3 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-4 div h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    .setion-2 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-3 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-4 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-2 img{
+        width: 400px;
+    }
+    .setion-3 img{
+        width: 400px;
+    }
+    .setion-4 img{
+        width: 400px;
+    }
+}
+@media (max-width: 900px){
+    .setion-2{
+        padding: 10px 100px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-3{
+        padding: 10px 100px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-4{
+        padding: 10px 100px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-2 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .setion-3 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .setion-4 div h3{
+        font-size: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .setion-2 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-3 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-4 div p{
+        font-size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-2 img{
+        width: 450px;
+    }
+    .setion-3 img{
+        width: 450px;
+    }
+    .setion-4 img{
+        width: 450px;
+    }
+}
+@media (max-width: 600px){
+    .setion-2{
+        padding: 10px 10px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-3{
+        padding: 10px 10px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    .setion-4{
+        padding: 10px 10px;
+        display: block;
+        text-align: center;
+        border-bottom: solid 8px rgb(39, 39, 39);
+    }
+    
+    .setion-2 div h3{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .setion-3 div h3{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .setion-4 div h3{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .setion-2 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-3 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-4 div p{
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .setion-2 img{
+        width: 300px;
+    }
+    .setion-3 img{
+        width: 300px;
+    }
+    .setion-4 img{
+        width: 300px;
+    }
+}
+@media (max-width: 1200px){
+    .faq{
+        padding: 50px 0;
+        text-align: center;
+        margin: 0px 120px;
+    }
+    .faq h3{
+        font-size: 43px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .faq-1{
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        height: 65px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 20px;
+        font-size: 28px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 950px){
+    .faq{
+        padding: 50px 0;
+        text-align: center;
+        margin: 0px 100px;
+    }
+    .faq h3{
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .faq-1{
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        height: 60px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 20px;
+        font-size: 20px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+}
+@media (max-width: 750px){
+    .faq{
+        padding: 30px 0;
+        text-align: center;
+        margin: 0px 80px;
+    }
+    .faq h3{
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .faq-1{
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        height: 55px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 20px;
+        font-size: 18px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+    .footer{
+        margin: 0 6%;
+    }
+}
+@media (max-width: 600px){
+    .faq{
+        padding: 30px 0;
+        text-align: center;
+        margin: 0px 100px;
+    }
+    .faq h3{
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .confirm-mail{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .confirm-mail p{
+        color: white;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 500px){
+    .faq{
+        padding: 30px 0;
+        text-align: center;
+        margin: 0px 40px;
+    }
+    .faq h3{
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 600;
+    }
+    .faq-1{
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        height: 45px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 20px;
+        font-size: 16px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+    .confirm-mail{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .confirm-mail p{
+        color: white;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 360px){
+    .faq{
+        padding: 20px 0;
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .faq h3{
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: 500;
+    }
+    .faq-1{
+        margin-top: 20px;
+        text-align: left;
+        width: 100%;
+        height: 40px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 20px;
+        font-size: 14px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        transition: all ease .55s;
+        cursor: pointer;
+    }
+    .confirm-mail{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .confirm-mail p{
+        color: white;
+        font-size: 16px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
 }
